@@ -12,9 +12,11 @@ $word = $_GET["word"];
         <title>php-badwords</title>
     </head>
     <body>
-<h1>
-    <?php echo var_dump($word) 
-    ?>
-</h1>
-    </body>
+<p>
+    <?php echo $word ?>
+</p>
+<p>
+    <?php echo 'il testo ha lunghezza ' . strlen($word) ?>
+</p>
+</body>
 </html>
