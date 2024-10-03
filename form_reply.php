@@ -13,7 +13,8 @@ $word = $_GET["word"];
     </head>
     <body>
 <h1>
-    <?php echo var_dump($word) ?>
+    <?php echo var_dump($word) 
+    ?>
 </h1>
     </body>
 </html>
