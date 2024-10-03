@@ -1,5 +1,8 @@
 <?php
-$test = 'ok'
+$test = 'ok';
+$word = $_GET["word"];
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +12,8 @@ $test = 'ok'
         <title>php-badwords</title>
     </head>
     <body>
-<h1><?php echo $test ?></h1>
+<h1>
+    <?php echo $word ?>
+</h1>
     </body>
 </html>
