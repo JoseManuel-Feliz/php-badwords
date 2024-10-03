@@ -11,10 +11,10 @@ $test = 'ok'
 <body>
 <h1><?php echo $test ?></h1>
 
-<form action="./form_reply" method="GET">
+<form action="./form_reply.php" method="GET">
     <div>
 <label for="word">Word:</label>
-        <input id="word" type="text" name="parola" placeholder="inserisci una parola">
+        <input id="word" type="text" name="word" placeholder="inserisci una parola">
     </div>
     <button type="submit">Send</button>
     <button type="reset">Reset</button>
